@@ -1,5 +1,8 @@
 body{ background-color: #524f4f;
-      color: #ffffff;}
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;}
 
     .barnav {  
     height: 100%; 
@@ -27,7 +30,7 @@ body{ background-color: #524f4f;
 
 .barnav a:hover {
     color: #949494;
-   
+    transition: color 0.3s ease;
 }
 
 nav ul li {list-style-type: none;}
@@ -64,17 +67,27 @@ h2{text-align: center;
 
 .img_1{float: left;
        width: 35%;
-       padding-right: 1em;
+       max-width: 100%;
+       height: auto;
        border-radius: 25px;
        padding: 20px;
+       box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+       box-sizing: border-box;
       }
 
 .img_2{float: right;
        width: 35%;
-       padding-right: 1em;
+       max-width: 100%;
+       height: auto;
        border-radius: 25px;
        padding: 20px;
+       box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+       box-sizing: border-box;
        }
+
+main p {
+    overflow: hidden;
+}
 
 main{font-size: 25px;
      line-height: 1.5;
@@ -141,7 +154,10 @@ input[type="submit"]{margin-left: 135px;}
 	}
 }
 
-footer{ text-align: center;}
+footer{ text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+        background-color: #424244;}
 
 
 
