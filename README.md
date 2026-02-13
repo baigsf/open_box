@@ -1,1 +1,1 @@
-https://baigsf.github.io/OpenBox/
+https://baigsf.github.io/open_box/
